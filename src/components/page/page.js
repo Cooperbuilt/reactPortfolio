@@ -6,9 +6,7 @@ class Page extends Component {
     render() {
         return (
             <div className="flex">
-                <div className="content">
-                    { this.props.children }
-                </div>
+                { this.props.children }
             </div>
         );
     }

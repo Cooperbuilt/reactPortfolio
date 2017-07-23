@@ -6,7 +6,7 @@ class Work extends Component {
     render() {
         return (
             <Page>
-                <Title text={"What"} size={"large"} color={"light"} />
+                <Title text={"What"} size={"large"} color={"dark"} />
                 <div className="content">
 
                 </div>
