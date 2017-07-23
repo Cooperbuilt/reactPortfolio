@@ -1,0 +1,48 @@
+.hero {
+    height: 100vh;
+    width: auto;
+    font-family: futura;
+}
+
+.hero .content {
+    color: white;
+    background-image: -webkit-linear-gradient(315deg, rgba(25, 148, 247, 0.9), rgba(7, 122, 214, 0.9) 60%), url(https://cdn.pbrd.co/images/GC1kzgx.png);
+    max-width: 2000px;
+    background-image: linear-gradient(135deg, rgba(25, 148, 247, 0.9), rgba(7, 122, 214, 0.9) 60%), url(https://cdn.pbrd.co/images/GC1kzgx.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: bottom right;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3%; 
+}
+
+@media screen and (max-width: 750px) {
+    #hero {
+        background-image: -webkit-linear-gradient(315deg, rgba(25, 148, 247, 0.95), rgba(7, 122, 214, 0.95) 60%), url("https://pasteboard.co/https://cdn.pbrd.co/images/GC1kzgx.png.png");
+        background-image: linear-gradient(135deg, rgba(25, 148, 247, 0.95), rgba(7, 122, 214, 0.95) 60%), url("https://pasteboard.co/https://cdn.pbrd.co/images/GC1kzgx.png.png");
+        background-position: bottom center; 
+    }
+}
+
+.title--large {
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+
+.title--small {
+    font-size: 2em;
+}
+
+.subtitles {
+    display: flex;
+    max-width: 600px;
+}
+
+.line {
+    width: 40%;
+    background: white;
+    height: 2px;
+}

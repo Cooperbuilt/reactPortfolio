@@ -1,0 +1,17 @@
+.menuItem {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+.menuItem--line {
+    width: 100%;
+}
+
+.bm-cross-button:hover {
+    color: gray;
+}
+
+.menuItem:hover {
+    color: hotpink;
+}
