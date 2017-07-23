@@ -5,14 +5,17 @@ import {
   Route
 } from 'react-router-dom'
 import Hero from './components/hero/hero';
-import './index.css';
+import Work from './components/work/work';
 import registerServiceWorker from './registerServiceWorker';
+import './index.css';
+
 
 const App = () => {
   return (
     <Router>
 	    <div>
-	    	<Route exactly pattern='/' component={Hero} />
+	    	<Route path='/home' component={Hero} />
+        <Route path='/work' component={Work} />
 	    </div>
 	</Router>
   )
