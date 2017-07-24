@@ -9,7 +9,6 @@ import Work from './components/work/work';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-
 const App = () => {
   return (
     <Router>

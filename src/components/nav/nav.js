@@ -41,7 +41,9 @@ var styles = {
     marginTop: '1em'
   },
   bmOverlay: {
-    background: 'rgba(255, 255, 255, 0.8)'
+    background: 'rgba(255, 255, 255, 0.8)',
+    marginLeft: '-80px',
+    width: '110%'
   }
 }
 
@@ -53,7 +55,7 @@ class Nav extends Component {
   render () {
     return (
       <Menu right styles={ styles } >
-        <a id="home" className="menuItem" href="/"><i className="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
+        <a id="home" className="menuItem" href="/home"><i className="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
         <br />
         <hr className="menuItem--line"/>
         <br />
