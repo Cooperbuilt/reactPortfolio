@@ -6,12 +6,21 @@ import WorkCard from '../workcard/workcard'
 import './work.css';
 
 class Work extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            work: 'all'
+        }
+    }
+
     render() {
+
         return (
             <Page background={"blue"}>
                 <Nav />
                 <Title text={"My Work"} size={"large"} color={"light"} />
-                <div className="content--work">
+                <div className="content--wrapper">
                     <WorkCard />
                     <WorkCard />
                     <WorkCard />

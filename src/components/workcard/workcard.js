@@ -6,7 +6,7 @@ class WorkCard extends Component {
         return (
             <div className={ `card ${this.props.width}` }>
                 <div className="image">
-                    <a href="#" className="card--circle">
+                    <a href={this.props.link} alt={this.props.name} className="card--circle">
                         <i className="fa fa-github" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -14,9 +14,9 @@ class WorkCard extends Component {
                     <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                 </div>
                 <div className="action">
-                    <a className="card--link" href='#'>Visit Site</a>
+                    <a className="card--link" href={this.props.link}>Visit Site</a>
                 </div>
-            </div> 
+            </div>
         );
     }
 }
